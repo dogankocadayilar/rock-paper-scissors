@@ -1,0 +1,32 @@
+.choice {
+  width: 130px;
+  aspect-ratio: 1;
+  background-color: #eee;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.choice > img {
+  width: 45px;
+  object-fit: contain;
+}
+
+.rock {
+  border: 15px solid rgb(var(--rock));
+  box-shadow: inset 0 7px 2px rgba(0, 0, 0, 0.2),
+    0 7px 1px rgba(var(--rock), 0.5);
+}
+
+.paper {
+  border: 15px solid rgb(var(--paper));
+  box-shadow: inset 0 7px 2px rgba(0, 0, 0, 0.2),
+    0 7px 1px rgb(var(--paper), 0.5);
+}
+
+.scissors {
+  border: 15px solid rgb(var(--scissors));
+  box-shadow: inset 0 7px 2px rgba(0, 0, 0, 0.2),
+    0 7px 1px rgb(var(--scissors), 0.5);
+}

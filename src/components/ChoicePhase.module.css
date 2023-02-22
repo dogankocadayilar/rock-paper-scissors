@@ -1,0 +1,17 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 20px;
+  justify-content: space-between;
+  padding-top: 10px;
+  background-image: url("./src/assets/images/bg-triangle.svg");
+  background-position: bottom;
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.main > *:last-of-type {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-self: center;
+}
