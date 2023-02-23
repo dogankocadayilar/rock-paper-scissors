@@ -14,7 +14,7 @@ function Choice({ choiceName, isWinner = false }) {
       onClick={() => setPlayerChoice(choiceName)}
     >
       <img
-        src={`./src/assets/images/icon-${choiceName}.svg`}
+        src={`https://raw.githubusercontent.com/dogankocadayilar/rock-paper-scissors/main/src/assets/images/icon-${choiceName}.svg`}
         alt={choiceName}
       />
     </div>

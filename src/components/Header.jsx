@@ -4,7 +4,7 @@ function Header({ score }) {
   return (
     <header className={styles.header}>
       <img
-        src="./src/assets/images/logo.svg"
+        src="https://raw.githubusercontent.com/dogankocadayilar/rock-paper-scissors/main/src/assets/images/logo.svg"
         alt="Logo"
         className={styles.logo}
       />

@@ -6,13 +6,13 @@ function RulesModal({ onClose }) {
       <div className={styles.wrapper}>
         <h2 className={styles.modal_title}>Rules</h2>
         <img
-          src="./src/assets/images/image-rules.svg"
+          src="https://raw.githubusercontent.com/dogankocadayilar/rock-paper-scissors/main/src/assets/images/image-rules.svg"
           alt="Rules"
           className={styles.rules}
         />
         <button className={styles.button} onClick={onClose}>
           <img
-            src="./src/assets/images/icon-close.svg"
+            src="https://raw.githubusercontent.com/dogankocadayilar/rock-paper-scissors/main/src/assets/images/icon-close.svg"
             alt="Close"
             className={styles.close}
           />
