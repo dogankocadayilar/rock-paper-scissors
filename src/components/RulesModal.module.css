@@ -1,0 +1,44 @@
+.modal {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  gap: 75px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  gap: 75px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.modal_title {
+  font-size: 32px;
+  text-transform: uppercase;
+  color: var(--Dark-Text);
+}
+
+.button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 800px) {
+  .modal {
+    background-color: rgba(0, 0, 0, 0.56);
+  }
+
+  .wrapper {
+    width: 450px;
+    border-radius: 10px;
+    padding: 25px;
+  }
+}

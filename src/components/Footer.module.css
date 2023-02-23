@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  width: 100%;
+  left: 0;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+  z-index: 99;
+}
+
+.button {
+  color: #eee;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  outline: 1px solid #eee;
+  padding: 10px;
+  width: 125px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+@media screen and (min-width: 800px) {
+  .footer {
+    bottom: 0;
+  }
+  .button {
+    position: absolute;
+    right: 310px;
+    bottom: 185px;
+  }
+}

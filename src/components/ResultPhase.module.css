@@ -10,6 +10,7 @@
   flex-direction: column;
   align-items: center;
   gap: 25px;
+  pointer-events: none;
 }
 
 .blank_choice {
@@ -33,7 +34,7 @@
   margin: auto;
   gap: 10px;
   align-items: center;
-  margin-top: 65px;
+  margin-top: 40px;
 }
 
 .result {
@@ -59,4 +60,21 @@
 
 .button:hover {
   color: rgb(var(--rock));
+}
+
+@media screen and (min-width: 800px) {
+  .main {
+    column-gap: 200px;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .row {
+    margin-top: 0;
+  }
+
+  .column > div {
+    width: 275px;
+    border-width: 30px;
+  }
 }

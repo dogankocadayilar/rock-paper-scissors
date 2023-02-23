@@ -17,9 +17,9 @@ function decideResult(playerChoice, computerChoice) {
 
 function ResultPhase() {
   const [result, setResult] = useState(null);
-  const { player, computer, setScore } = useContext(choiceContext);
+  const [computerChoice, setComputerChoice] = useState(null);
+  const { player, setScore } = useContext(choiceContext);
   const [playerChoice, setPlayerChoice] = player;
-  const [computerChoice, setComputerChoice] = computer;
 
   useEffect(() => {
     setTimeout(() => {
@@ -52,11 +52,16 @@ function ResultPhase() {
   return (
     <main className={styles.main}>
       <div className={styles.column}>
-        <Choice choiceName={playerChoice} />
+        <Choice isWinner={result === "you win"} choiceName={playerChoice} />
         <span className={styles.label}>You Picked</span>
       </div>
       <div className={styles.column}>
-        {computerChoice && <Choice choiceName={computerChoice} />}
+        {computerChoice && (
+          <Choice
+            isWinner={result === "you lose"}
+            choiceName={computerChoice}
+          />
+        )}
         {!computerChoice && <div className={styles.blank_choice}></div>}
         <span className={styles.label}>The House Picked</span>
       </div>
