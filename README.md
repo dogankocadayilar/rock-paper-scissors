@@ -11,12 +11,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot 2023-02-23 at 13-09-57 Rock Paper Scissors](https://user-images.githubusercontent.com/75983262/220877906-5fe7897a-9f1e-4f52-9a4c-81da6b02dfcf.png)
+![Screenshot 2023-02-23 at 13-09-50 Rock Paper Scissors](https://user-images.githubusercontent.com/75983262/220877914-90fb3bb1-3d02-456a-9363-17d9e85b8532.png)
+![Screenshot 2023-02-23 at 13-10-31 Rock Paper Scissors](https://user-images.githubusercontent.com/75983262/220877921-250f96e6-7896-49d9-8d2f-9a9507d0bdb7.png)
 
 ### Links
 
-- Solution URL: [solution URL](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/dogankocadayilar/rock-paper-scissors)
+- Live Site URL: [live site URL](https://dogankocadayilar.github.io/rock-paper-scissors/)
 
 ## My process
 
